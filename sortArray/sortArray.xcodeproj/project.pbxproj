@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE84138A214A132F000C101C /* sortArrayModle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE841389214A132F000C101C /* sortArrayModle.m */; };
+		CE84138F214A13A4000C101C /* modleArrayTimeSortVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE84138D214A13A4000C101C /* modleArrayTimeSortVc.m */; };
+		CE841390214A13A4000C101C /* modleArrayTimeSortVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE84138E214A13A4000C101C /* modleArrayTimeSortVc.xib */; };
+		CE841394214A37A5000C101C /* SortMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = CE841393214A37A5000C101C /* SortMethod.m */; };
 		CED7EA662149530C000B62C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED7EA652149530C000B62C6 /* AppDelegate.m */; };
 		CED7EA692149530C000B62C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED7EA682149530C000B62C6 /* ViewController.m */; };
 		CED7EA6C2149530C000B62C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED7EA6A2149530C000B62C6 /* Main.storyboard */; };
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE841388214A132F000C101C /* sortArrayModle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sortArrayModle.h; sourceTree = "<group>"; };
+		CE841389214A132F000C101C /* sortArrayModle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sortArrayModle.m; sourceTree = "<group>"; };
+		CE84138C214A13A4000C101C /* modleArrayTimeSortVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = modleArrayTimeSortVc.h; sourceTree = "<group>"; };
+		CE84138D214A13A4000C101C /* modleArrayTimeSortVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = modleArrayTimeSortVc.m; sourceTree = "<group>"; };
+		CE84138E214A13A4000C101C /* modleArrayTimeSortVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = modleArrayTimeSortVc.xib; sourceTree = "<group>"; };
+		CE841392214A37A5000C101C /* SortMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortMethod.h; sourceTree = "<group>"; };
+		CE841393214A37A5000C101C /* SortMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortMethod.m; sourceTree = "<group>"; };
 		CED7EA612149530C000B62C6 /* sortArray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sortArray.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED7EA642149530C000B62C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CED7EA652149530C000B62C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +89,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE841387214A12DA000C101C /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				CE841388214A132F000C101C /* sortArrayModle.h */,
+				CE841389214A132F000C101C /* sortArrayModle.m */,
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		CE84138B214A136E000C101C /* Vc */ = {
+			isa = PBXGroup;
+			children = (
+				CE84138C214A13A4000C101C /* modleArrayTimeSortVc.h */,
+				CE84138D214A13A4000C101C /* modleArrayTimeSortVc.m */,
+				CE84138E214A13A4000C101C /* modleArrayTimeSortVc.xib */,
+			);
+			path = Vc;
+			sourceTree = "<group>";
+		};
+		CE841391214A374F000C101C /* SortMethod */ = {
+			isa = PBXGroup;
+			children = (
+				CE841392214A37A5000C101C /* SortMethod.h */,
+				CE841393214A37A5000C101C /* SortMethod.m */,
+			);
+			path = SortMethod;
+			sourceTree = "<group>";
+		};
 		CED7EA582149530C000B62C6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +140,9 @@
 		CED7EA632149530C000B62C6 /* sortArray */ = {
 			isa = PBXGroup;
 			children = (
+				CE841391214A374F000C101C /* SortMethod */,
+				CE84138B214A136E000C101C /* Vc */,
+				CE841387214A12DA000C101C /* Modle */,
 				CED7EA642149530C000B62C6 /* AppDelegate.h */,
 				CED7EA652149530C000B62C6 /* AppDelegate.m */,
 				CED7EA672149530C000B62C6 /* ViewController.h */,
@@ -236,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED7EA712149530D000B62C6 /* LaunchScreen.storyboard in Resources */,
+				CE841390214A13A4000C101C /* modleArrayTimeSortVc.xib in Resources */,
 				CED7EA6E2149530D000B62C6 /* Assets.xcassets in Resources */,
 				CED7EA6C2149530C000B62C6 /* Main.storyboard in Resources */,
 			);
@@ -263,8 +306,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED7EA692149530C000B62C6 /* ViewController.m in Sources */,
+				CE84138F214A13A4000C101C /* modleArrayTimeSortVc.m in Sources */,
+				CE841394214A37A5000C101C /* SortMethod.m in Sources */,
 				CED7EA742149530D000B62C6 /* main.m in Sources */,
 				CED7EA662149530C000B62C6 /* AppDelegate.m in Sources */,
+				CE84138A214A132F000C101C /* sortArrayModle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
